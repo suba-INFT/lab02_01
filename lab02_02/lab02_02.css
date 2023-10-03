@@ -1,0 +1,43 @@
+/* Define a common font family for the entire page */
+html {
+    font-family: sans-serif;
+  }
+
+  /* Table the style  */
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(243, 238, 238);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+
+  /* Table cell <td> <th> ) */
+  td, th {
+    border: 1px solid rgb(13, 1, 1);
+    padding: 10px 20px;
+  }
+
+  /* Style for table header cells (<th>) */
+  th {
+    background-color: rgb(246, 238, 238);
+  }
+
+ 
+  td {
+    text-align: center;
+  }
+
+  /* Alter row with even index */
+  tr:nth-child(even) td {
+    background-color: rgb(237, 231, 234);
+  }
+
+  /* Alter rows with odd index */
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+  }
+
+  /* Table Caption */
+  caption {
+    padding: 10px;
+  }
